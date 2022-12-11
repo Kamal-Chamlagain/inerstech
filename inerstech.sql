@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 11, 2022 at 01:54 PM
+-- Generation Time: Dec 11, 2022 at 02:22 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.0.19
 
@@ -61,7 +61,7 @@ CREATE TABLE `application` (
 --
 
 INSERT INTO `application` (`id`, `name`, `email`, `contact`, `post`, `cover`, `resume`) VALUES
-(2, 'Kamal Chamlagain', 'kamalchamlagain15@gmail.com', 9825950295, 'Backend Developer', 0x636f7665722e706466, 0x4b616d616c20526573756d652e706466);
+(1, 'Harka Bahadur Tamang', 'harkatamang@gmail.com', 9825950269, 'Backend Developer', 0x636f7665722e706466, 0x4b616d616c28726573756d65292e706466);
 
 -- --------------------------------------------------------
 
@@ -239,7 +239,7 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `application`
 --
 ALTER TABLE `application`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `appointment`

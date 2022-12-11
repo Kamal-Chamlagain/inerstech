@@ -58,8 +58,8 @@ include '../includes/connection.php';
                       <td><?php echo $row['email']; ?></td>
                       <td><?php echo $row['contact']; ?></td>
                       <td><?php echo $row['post']; ?></td>
-                      <td><?php echo $row['cover']; ?><a href="../../assets/files/cover/<?php echo $row['cover']; ?>" ><i class="bi bi-eye"></a></i></td>
-                      <td><?php echo $row['resume']; ?><a href="../../assets/files/resume/<?php echo $row['resume']; ?>"><i class="bi bi-eye"></a></i></td>
+                      <td><?php echo $row['cover']; ?><a href="../../assets/files/cover/<?php echo $row['cover']; ?>" download ><i class="bi bi-download"></a></i></td>
+                      <td><?php echo $row['resume']; ?><a href="../../assets/files/resume/<?php echo $row['resume']; ?>" download><i class="bi bi-download"></a></i></td>
 
                       <td>
                         <a href="action/delete_application.php?id=<?php echo $row['id'] ?>" onclick="return confirm('Are you sure you want to remove this application?')"><i style='font-size:25px;color:red' class="bi bi-trash"></i></a>
